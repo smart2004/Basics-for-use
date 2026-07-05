@@ -6,10 +6,10 @@ m2 = man['age']
 print(m2)
 
 keys = man.keys()
-print(keys)
+print(*keys)
 
 values = man.values()
-print(values)
+print(*values)
 
 items = man.items()
-print(items)
+print(*items)
